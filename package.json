@@ -1,24 +1,12 @@
 {
-  "name": "cachepuncher",
+  "name": "wizcorp-cachepuncher",
+  "description": "Punch browser caching straight in the cache!",
   "version": "0.1.2",
-  "description": "Punch browser caching right in the cache",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha"
-  },
-  "repository": "git://github.com/Wizcorp/cachepuncher.git",
-  "author": "Wizcorp, Inc. <info@wizcorp.jp>",
-  "maintainers": [
-    {
-      "name": "Ron Korving",
-      "email": "rkorving@wizcorp.jp"
-    }
+  "keywords": [
+    "browser",
+    "cache"
   ],
-  "license": "MIT",
-  "devDependencies": {
-    "mocha": "~1.14.0"
-  }
+  "main": "index.js",
+  "dependencies": {},
+  "license": "MIT"
 }
